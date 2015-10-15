@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761CBF3F1BCFE06B009AE062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CBF3E1BCFE06B009AE062 /* main.m */; };
+		761CBF421BCFE06B009AE062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CBF411BCFE06B009AE062 /* AppDelegate.m */; };
+		761CBF481BCFE06B009AE062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761CBF461BCFE06B009AE062 /* Main.storyboard */; };
+		761CBF4A1BCFE06B009AE062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761CBF491BCFE06B009AE062 /* Assets.xcassets */; };
+		761CBF4D1BCFE06B009AE062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761CBF4B1BCFE06B009AE062 /* LaunchScreen.storyboard */; };
+		761CBF581BCFE06B009AE062 /* Typing_exerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CBF571BCFE06B009AE062 /* Typing_exerciseTests.m */; };
+		761CBF631BCFE06B009AE062 /* Typing_exerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CBF621BCFE06B009AE062 /* Typing_exerciseUITests.m */; };
+		761CBF721BCFF9D5009AE062 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CBF711BCFF9D5009AE062 /* TitleViewController.m */; settings = {ASSET_TAGS = (); }; };
+		761CBF751BCFF9E3009AE062 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CBF741BCFF9E3009AE062 /* GameViewController.m */; settings = {ASSET_TAGS = (); }; };
+		761CBF781BCFFB16009AE062 /* TypingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CBF771BCFFB16009AE062 /* TypingGame.m */; settings = {ASSET_TAGS = (); }; };
+		761CBF7B1BD02FC1009AE062 /* UIImage+AnimatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CBF7A1BD02FC1009AE062 /* UIImage+AnimatedGIF.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		761CBF541BCFE06B009AE062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 761CBF321BCFE06A009AE062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 761CBF391BCFE06A009AE062;
+			remoteInfo = "Typing-exercise";
+		};
+		761CBF5F1BCFE06B009AE062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 761CBF321BCFE06A009AE062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 761CBF391BCFE06A009AE062;
+			remoteInfo = "Typing-exercise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		761CBF3A1BCFE06B009AE062 /* Typing-exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Typing-exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761CBF3E1BCFE06B009AE062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		761CBF401BCFE06B009AE062 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		761CBF411BCFE06B009AE062 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		761CBF471BCFE06B009AE062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		761CBF491BCFE06B009AE062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		761CBF4C1BCFE06B009AE062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		761CBF4E1BCFE06B009AE062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761CBF531BCFE06B009AE062 /* Typing-exerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Typing-exerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761CBF571BCFE06B009AE062 /* Typing_exerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Typing_exerciseTests.m; sourceTree = "<group>"; };
+		761CBF591BCFE06B009AE062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761CBF5E1BCFE06B009AE062 /* Typing-exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Typing-exerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761CBF621BCFE06B009AE062 /* Typing_exerciseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Typing_exerciseUITests.m; sourceTree = "<group>"; };
+		761CBF641BCFE06B009AE062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761CBF701BCFF9D5009AE062 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		761CBF711BCFF9D5009AE062 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		761CBF731BCFF9E3009AE062 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		761CBF741BCFF9E3009AE062 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		761CBF761BCFFB16009AE062 /* TypingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypingGame.h; sourceTree = "<group>"; };
+		761CBF771BCFFB16009AE062 /* TypingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypingGame.m; sourceTree = "<group>"; };
+		761CBF791BD02FC1009AE062 /* UIImage+AnimatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AnimatedGIF.h"; sourceTree = "<group>"; };
+		761CBF7A1BD02FC1009AE062 /* UIImage+AnimatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AnimatedGIF.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		761CBF371BCFE06A009AE062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761CBF501BCFE06B009AE062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761CBF5B1BCFE06B009AE062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761CBF311BCFE06A009AE062 = {
+			isa = PBXGroup;
+			children = (
+				761CBF3C1BCFE06B009AE062 /* Typing-exercise */,
+				761CBF561BCFE06B009AE062 /* Typing-exerciseTests */,
+				761CBF611BCFE06B009AE062 /* Typing-exerciseUITests */,
+				761CBF3B1BCFE06B009AE062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		761CBF3B1BCFE06B009AE062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				761CBF3A1BCFE06B009AE062 /* Typing-exercise.app */,
+				761CBF531BCFE06B009AE062 /* Typing-exerciseTests.xctest */,
+				761CBF5E1BCFE06B009AE062 /* Typing-exerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		761CBF3C1BCFE06B009AE062 /* Typing-exercise */ = {
+			isa = PBXGroup;
+			children = (
+				761CBF401BCFE06B009AE062 /* AppDelegate.h */,
+				761CBF411BCFE06B009AE062 /* AppDelegate.m */,
+				761CBF701BCFF9D5009AE062 /* TitleViewController.h */,
+				761CBF711BCFF9D5009AE062 /* TitleViewController.m */,
+				761CBF731BCFF9E3009AE062 /* GameViewController.h */,
+				761CBF741BCFF9E3009AE062 /* GameViewController.m */,
+				761CBF761BCFFB16009AE062 /* TypingGame.h */,
+				761CBF771BCFFB16009AE062 /* TypingGame.m */,
+				761CBF461BCFE06B009AE062 /* Main.storyboard */,
+				761CBF791BD02FC1009AE062 /* UIImage+AnimatedGIF.h */,
+				761CBF7A1BD02FC1009AE062 /* UIImage+AnimatedGIF.m */,
+				761CBF491BCFE06B009AE062 /* Assets.xcassets */,
+				761CBF4B1BCFE06B009AE062 /* LaunchScreen.storyboard */,
+				761CBF4E1BCFE06B009AE062 /* Info.plist */,
+				761CBF3D1BCFE06B009AE062 /* Supporting Files */,
+			);
+			path = "Typing-exercise";
+			sourceTree = "<group>";
+		};
+		761CBF3D1BCFE06B009AE062 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				761CBF3E1BCFE06B009AE062 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		761CBF561BCFE06B009AE062 /* Typing-exerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				761CBF571BCFE06B009AE062 /* Typing_exerciseTests.m */,
+				761CBF591BCFE06B009AE062 /* Info.plist */,
+			);
+			path = "Typing-exerciseTests";
+			sourceTree = "<group>";
+		};
+		761CBF611BCFE06B009AE062 /* Typing-exerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				761CBF621BCFE06B009AE062 /* Typing_exerciseUITests.m */,
+				761CBF641BCFE06B009AE062 /* Info.plist */,
+			);
+			path = "Typing-exerciseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		761CBF391BCFE06A009AE062 /* Typing-exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761CBF671BCFE06B009AE062 /* Build configuration list for PBXNativeTarget "Typing-exercise" */;
+			buildPhases = (
+				761CBF361BCFE06A009AE062 /* Sources */,
+				761CBF371BCFE06A009AE062 /* Frameworks */,
+				761CBF381BCFE06A009AE062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Typing-exercise";
+			productName = "Typing-exercise";
+			productReference = 761CBF3A1BCFE06B009AE062 /* Typing-exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		761CBF521BCFE06B009AE062 /* Typing-exerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761CBF6A1BCFE06B009AE062 /* Build configuration list for PBXNativeTarget "Typing-exerciseTests" */;
+			buildPhases = (
+				761CBF4F1BCFE06B009AE062 /* Sources */,
+				761CBF501BCFE06B009AE062 /* Frameworks */,
+				761CBF511BCFE06B009AE062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761CBF551BCFE06B009AE062 /* PBXTargetDependency */,
+			);
+			name = "Typing-exerciseTests";
+			productName = "Typing-exerciseTests";
+			productReference = 761CBF531BCFE06B009AE062 /* Typing-exerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		761CBF5D1BCFE06B009AE062 /* Typing-exerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761CBF6D1BCFE06B009AE062 /* Build configuration list for PBXNativeTarget "Typing-exerciseUITests" */;
+			buildPhases = (
+				761CBF5A1BCFE06B009AE062 /* Sources */,
+				761CBF5B1BCFE06B009AE062 /* Frameworks */,
+				761CBF5C1BCFE06B009AE062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				761CBF601BCFE06B009AE062 /* PBXTargetDependency */,
+			);
+			name = "Typing-exerciseUITests";
+			productName = "Typing-exerciseUITests";
+			productReference = 761CBF5E1BCFE06B009AE062 /* Typing-exerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		761CBF321BCFE06A009AE062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Flatiron School";
+				TargetAttributes = {
+					761CBF391BCFE06A009AE062 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = B828SXA9HW;
+					};
+					761CBF521BCFE06B009AE062 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 761CBF391BCFE06A009AE062;
+					};
+					761CBF5D1BCFE06B009AE062 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 761CBF391BCFE06A009AE062;
+					};
+				};
+			};
+			buildConfigurationList = 761CBF351BCFE06A009AE062 /* Build configuration list for PBXProject "Typing-exercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 761CBF311BCFE06A009AE062;
+			productRefGroup = 761CBF3B1BCFE06B009AE062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				761CBF391BCFE06A009AE062 /* Typing-exercise */,
+				761CBF521BCFE06B009AE062 /* Typing-exerciseTests */,
+				761CBF5D1BCFE06B009AE062 /* Typing-exerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		761CBF381BCFE06A009AE062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761CBF4D1BCFE06B009AE062 /* LaunchScreen.storyboard in Resources */,
+				761CBF4A1BCFE06B009AE062 /* Assets.xcassets in Resources */,
+				761CBF481BCFE06B009AE062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761CBF511BCFE06B009AE062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761CBF5C1BCFE06B009AE062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		761CBF361BCFE06A009AE062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761CBF751BCFF9E3009AE062 /* GameViewController.m in Sources */,
+				761CBF421BCFE06B009AE062 /* AppDelegate.m in Sources */,
+				761CBF721BCFF9D5009AE062 /* TitleViewController.m in Sources */,
+				761CBF7B1BD02FC1009AE062 /* UIImage+AnimatedGIF.m in Sources */,
+				761CBF781BCFFB16009AE062 /* TypingGame.m in Sources */,
+				761CBF3F1BCFE06B009AE062 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761CBF4F1BCFE06B009AE062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761CBF581BCFE06B009AE062 /* Typing_exerciseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761CBF5A1BCFE06B009AE062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761CBF631BCFE06B009AE062 /* Typing_exerciseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		761CBF551BCFE06B009AE062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 761CBF391BCFE06A009AE062 /* Typing-exercise */;
+			targetProxy = 761CBF541BCFE06B009AE062 /* PBXContainerItemProxy */;
+		};
+		761CBF601BCFE06B009AE062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 761CBF391BCFE06A009AE062 /* Typing-exercise */;
+			targetProxy = 761CBF5F1BCFE06B009AE062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		761CBF461BCFE06B009AE062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761CBF471BCFE06B009AE062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		761CBF4B1BCFE06B009AE062 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761CBF4C1BCFE06B009AE062 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		761CBF651BCFE06B009AE062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		761CBF661BCFE06B009AE062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		761CBF681BCFE06B009AE062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Typing-exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIS.Typing-exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		761CBF691BCFE06B009AE062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Typing-exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIS.Typing-exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		761CBF6B1BCFE06B009AE062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Typing-exerciseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIS.Typing-exerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typing-exercise.app/Typing-exercise";
+			};
+			name = Debug;
+		};
+		761CBF6C1BCFE06B009AE062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Typing-exerciseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIS.Typing-exerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typing-exercise.app/Typing-exercise";
+			};
+			name = Release;
+		};
+		761CBF6E1BCFE06B009AE062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Typing-exerciseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIS.Typing-exerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Typing-exercise";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		761CBF6F1BCFE06B009AE062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Typing-exerciseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FIS.Typing-exerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Typing-exercise";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		761CBF351BCFE06A009AE062 /* Build configuration list for PBXProject "Typing-exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761CBF651BCFE06B009AE062 /* Debug */,
+				761CBF661BCFE06B009AE062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761CBF671BCFE06B009AE062 /* Build configuration list for PBXNativeTarget "Typing-exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761CBF681BCFE06B009AE062 /* Debug */,
+				761CBF691BCFE06B009AE062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761CBF6A1BCFE06B009AE062 /* Build configuration list for PBXNativeTarget "Typing-exerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761CBF6B1BCFE06B009AE062 /* Debug */,
+				761CBF6C1BCFE06B009AE062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761CBF6D1BCFE06B009AE062 /* Build configuration list for PBXNativeTarget "Typing-exerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761CBF6E1BCFE06B009AE062 /* Debug */,
+				761CBF6F1BCFE06B009AE062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 761CBF321BCFE06A009AE062 /* Project object */;
+}
