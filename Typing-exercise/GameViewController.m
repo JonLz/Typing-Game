@@ -55,7 +55,6 @@
         [self.timer fire];
     }
     
-    
     NSString *fieldText = self.userInputField.text;
     NSString *resultString;
     
