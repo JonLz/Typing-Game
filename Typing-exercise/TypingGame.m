@@ -30,7 +30,13 @@
         _diffulty = difficulty;
         _score = 0;
         _gameText = [TypingGame gameTextForDifficulty:difficulty];
-        _timeAllowed = self.gameText.length;
+        if (self.diffulty == 0) {
+            _timeAllowed = self.gameText.length;
+        }else if (self.diffulty == 1){
+            _timeAllowed = self.gameText.length / 4;
+        }else{
+            _timeAllowed = self.gameText.length / 8;
+        }
         _time = self.timeAllowed;
         _gameStarted = NO;
     }

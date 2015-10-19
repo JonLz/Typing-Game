@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "162F2E4E1271D13903F372A1620EF2FC72D34CDC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "162F2E4E1271D13903F372A1620EF2FC72D34CDC" : 0,
+    "4B985B87A1D585C7C4AE046CEB38A5D2580ED8AC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F3C3FA6E-397F-4EE3-B4F1-A68E1E6CE923",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "162F2E4E1271D13903F372A1620EF2FC72D34CDC" : "Typing-exercise\/",
+    "4B985B87A1D585C7C4AE046CEB38A5D2580ED8AC" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Typing-exercise",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Typing-exercise.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kevinlin505\/Typing-Game.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "162F2E4E1271D13903F372A1620EF2FC72D34CDC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kevinlin505\/map-views.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B985B87A1D585C7C4AE046CEB38A5D2580ED8AC"
+    }
+  ]
+}
