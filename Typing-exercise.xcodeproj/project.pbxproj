@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6187C6C61BD57B6B006C8C91 /* lose.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6187C6C31BD57ADB006C8C91 /* lose.gif */; };
+		6187C6C71BD57B6B006C8C91 /* typing.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6187C6C41BD57ADB006C8C91 /* typing.gif */; };
+		6187C6C81BD57B6B006C8C91 /* win.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6187C6C51BD57ADB006C8C91 /* win.gif */; };
 		761CBF3F1BCFE06B009AE062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CBF3E1BCFE06B009AE062 /* main.m */; };
 		761CBF421BCFE06B009AE062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761CBF411BCFE06B009AE062 /* AppDelegate.m */; };
 		761CBF481BCFE06B009AE062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761CBF461BCFE06B009AE062 /* Main.storyboard */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6187C6C31BD57ADB006C8C91 /* lose.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lose.gif; sourceTree = "<group>"; };
+		6187C6C41BD57ADB006C8C91 /* typing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = typing.gif; sourceTree = "<group>"; };
+		6187C6C51BD57ADB006C8C91 /* win.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = win.gif; sourceTree = "<group>"; };
 		761CBF3A1BCFE06B009AE062 /* Typing-exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Typing-exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761CBF3E1BCFE06B009AE062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		761CBF401BCFE06B009AE062 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,9 +93,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6187C6C21BD57ADB006C8C91 /* Animated GIFS */ = {
+			isa = PBXGroup;
+			children = (
+				6187C6C31BD57ADB006C8C91 /* lose.gif */,
+				6187C6C41BD57ADB006C8C91 /* typing.gif */,
+				6187C6C51BD57ADB006C8C91 /* win.gif */,
+			);
+			name = "Animated GIFS";
+			path = "Typing-exercise/Animated GIFS";
+			sourceTree = "<group>";
+		};
 		761CBF311BCFE06A009AE062 = {
 			isa = PBXGroup;
 			children = (
+				6187C6C21BD57ADB006C8C91 /* Animated GIFS */,
 				761CBF3C1BCFE06B009AE062 /* Typing-exercise */,
 				761CBF561BCFE06B009AE062 /* Typing-exerciseTests */,
 				761CBF611BCFE06B009AE062 /* Typing-exerciseUITests */,
@@ -258,6 +276,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6187C6C61BD57B6B006C8C91 /* lose.gif in Resources */,
+				6187C6C71BD57B6B006C8C91 /* typing.gif in Resources */,
+				6187C6C81BD57B6B006C8C91 /* win.gif in Resources */,
 				761CBF4D1BCFE06B009AE062 /* LaunchScreen.storyboard in Resources */,
 				761CBF4A1BCFE06B009AE062 /* Assets.xcassets in Resources */,
 				761CBF481BCFE06B009AE062 /* Main.storyboard in Resources */,
