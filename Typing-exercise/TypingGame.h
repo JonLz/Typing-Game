@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface TypingGame : NSObject
 
@@ -19,5 +20,5 @@
 
 -(instancetype)initGameWithDifficuty:(NSUInteger)difficulty;
 -(NSUInteger)timeUpdate;
-
+-(CGFloat)calculatedWPM:(NSString *)string;
 @end

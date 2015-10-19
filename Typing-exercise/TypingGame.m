@@ -65,8 +65,26 @@
 
 -(NSUInteger)timeUpdate{
     self.time -= 1;
-    
+//    NSLog(@"Time update called. Time is %lu", self.time);
     return self.time;
 }
 
+-(CGFloat)calculatedWPM:(NSString *)string
+{
+    CGFloat time = self.timeAllowed - self.time;
+    //CGFloat length = self.gameText.length;
+    CGFloat elem = [self wordCount:string];
+    return elem/time*60;
+}
+
+- (NSUInteger)wordCount:(NSString *)string {
+    NSCharacterSet *separators = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+    NSArray *words = [string componentsSeparatedByCharactersInSet:separators];
+    
+    NSIndexSet *separatorIndexes = [words indexesOfObjectsPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
+        return [obj isEqualToString:@""];
+    }];
+    
+    return [words count] - [separatorIndexes count];
+}
 @end
