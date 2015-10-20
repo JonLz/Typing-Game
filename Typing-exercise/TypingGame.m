@@ -82,7 +82,7 @@
                                 @"Life is a one time offer, use it well."];
     NSArray *mediumStoryLines = @[@"I don't want to earn my living; I want to live.",
                                   @"It does not matter how slowly you go as long as you do not stop.",
-                                  @"hat screws us up the most in life is the picture in our head of how it is supposed to be.",
+                                  @"What screws us up the most in life is the picture in our head of how it is supposed to be.",
                                   @"Life shrinks or expands in proportion to one's courage.",
                                   @"Life must be lived forwards, but can only be understood backwards."];
     NSArray *hardStoryLines = @[@"If you live long enough, you'll make mistakes. But if you learn from them, you'll be a better person. It's how you handle adversity, not how it affects you. The main thing is never quit, never quit, never quit.",

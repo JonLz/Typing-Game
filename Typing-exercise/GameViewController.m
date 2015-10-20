@@ -13,7 +13,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *storyTextView;
 @property (weak, nonatomic) IBOutlet UITextField *userInputField;
 @property (weak, nonatomic) IBOutlet UILabel *timerLabel;
-@property(strong, nonatomic)NSTimer *timer;
+@property (strong, nonatomic) NSTimer *timer;
 @property (weak, nonatomic) IBOutlet UIImageView *gameImage;
 @property (weak, nonatomic) IBOutlet UIButton *exitButton;
 
